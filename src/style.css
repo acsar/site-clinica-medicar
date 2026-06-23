@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply text-gray-600 bg-white font-sans antialiased overflow-x-hidden;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-semibold rounded-full shadow-lg text-white bg-primary hover:bg-primary-dark transition-all duration-300 transform hover:-translate-y-1 active:scale-95 cursor-pointer;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-semibold rounded-full shadow-lg text-white bg-secondary hover:bg-secondary-dark transition-all duration-300 transform hover:-translate-y-1 active:scale-95 cursor-pointer;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-primary text-base font-semibold rounded-full text-primary hover:bg-primary hover:text-white transition-all duration-300 transform hover:-translate-y-1 active:scale-95 cursor-pointer;
+  }
+  .section-title {
+    @apply text-3xl md:text-5xl font-display font-black text-primary text-center mb-6 leading-tight;
+  }
+  .section-subtitle {
+    @apply text-lg md:text-xl text-gray-500 text-center max-w-3xl mx-auto mb-16 leading-relaxed;
+  }
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/30 shadow-2xl;
+  }
+  .card-premium {
+    @apply bg-white rounded-3xl p-8 shadow-xl border border-gray-100 transition-all duration-500 hover:shadow-2xl hover:-translate-y-2;
+  }
+}
+
+/* Custom Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Medical Micro-interactions */
+.service-icon {
+  @apply w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center text-primary mb-6 transition-all duration-300;
+}
+
+.card-premium:hover .service-icon {
+  @apply bg-primary text-white rotate-12 scale-110;
+}

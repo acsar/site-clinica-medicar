@@ -1,0 +1,174 @@
+{
+    "doctors": [
+        {
+            "id": 1,
+            "name": "Dra. Deborah Cabral",
+            "especialidade": "Cardiologista Ecocardiografista",
+            "registro": "crm 10845ce - rqe 7261/7287",
+            "foto": "10845ce.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Dra. Elita Borges",
+            "especialidade": "Teste Ergometrico",
+            "registro": "crm 3752ce",
+            "foto": "3752ce.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Dr. Francisco Farias",
+            "especialidade": "Ecocardiografia",
+            "registro": "crm 10673ce - rqe 9253/13165",
+            "foto": "10673ce.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Dr. Francisco Nobre",
+            "especialidade": "Cardiologista Ecocardiografista",
+            "registro": "crm 2974ce - rqe 1433",
+            "foto": "2974ce.jpeg"
+        },
+        {
+            "id": 5,
+            "name": "Dr Gustavo Verás",
+            "especialidade": "Cardiologista",
+            "registro": "crm 9604ce - rqe 10983",
+            "foto": "9604ce.jpeg"
+        },
+        {
+            "id": 6,
+            "name": "Dra. Ingrid Freitas",
+            "especialidade": "Cardiologista e Ecocardiografista",
+            "registro": "crm 16856ce - rqe 11365/14259",
+            "foto": "16856ce.jpeg"
+        },
+        {
+            "id": 7,
+            "name": "Dra. Juliana Rolim",
+            "especialidade": "Cardiologista",
+            "registro": "crm 6773ce - rqe 2946",
+            "foto": "6773ce.jpeg"
+        },
+        {
+            "id": 8,
+            "name": "Dra. Ligia Silveira",
+            "especialidade": "Endocrinologista",
+            "registro": "crm 12425ce - rqe 7021",
+            "foto": "12425ce.jpeg"
+        },
+        {
+            "id": 11,
+            "name": "Dra. Luciana Oliveira",
+            "especialidade": "Cardiologista Ecocardiografista",
+            "registro": "crm 6755ce - rqe 2845/12654",
+            "foto": "6755ce.jpeg"
+        },
+        {
+            "id": 12,
+            "name": "Dra Marina Torquato",
+            "especialidade": "Cardiologista",
+            "registro": "crm 16353ce - rqe 15212",
+            "foto": "16353ce.jpeg"
+        },
+        {
+            "id": 13,
+            "name": "Dr Mateus Feitosa",
+            "especialidade": "Cardiologista",
+            "registro": "crm 15568ce - rqe 13838",
+            "foto": "15568ce.jpeg"
+        },
+        {
+            "id": 14,
+            "name": "Dr. Sandro Salgueiro",
+            "especialidade": "Cardiologista Hemodinamicista",
+            "registro": "crm 5391ce - rqe 3957",
+            "foto": "5391ce.jpeg"
+        },
+        {
+            "id": 15,
+            "name": "Dr. Ulysses Vieira",
+            "especialidade": "Cardiologista Ecocardiografista",
+            "registro": "crm 12194ce rqe 5923/9608",
+            "foto": "12194ce.jpeg"
+        }
+    ],
+    "covenants": [
+        {
+            "id": 1,
+            "name": "Assefaz",
+            "src": "../assets/images/assefaz.png"
+        },
+        {
+            "id": 2,
+            "name": "Camed",
+            "src": "../assets/images/camed.png"
+        },
+        {
+            "id": 3,
+            "name": "Cafaz",
+            "src": "../assets/images/cafaz.png"
+        },
+        {
+            "id": 5,
+            "name": "Cassi",
+            "src": "../assets/images/cassi.png"
+        },
+        {
+            "id": 6,
+            "name": "Geap",
+            "src": "../assets/images/geap.png"
+        },
+        {
+            "id": 7,
+            "name": "Issec",
+            "src": "../assets/images/issec.png"
+        },
+        {
+            "id": 8,
+            "name": "Postal Saúde (CORREIOS)",
+            "src": "../assets/images/postal_saude.png"
+        },
+        {
+            "id": 9,
+            "name": "Saúde Caixa",
+            "src": "../assets/images/saude_caixa.png"
+        },
+        {
+            "id": 10,
+            "name": "Unimed",
+            "src": "../assets/images/unimed.png"
+        }
+    ],
+    "exams": [
+        {
+            "id": 1,
+            "name": "Eletrocardiograma",
+            "description": "Exame de rápida execução que analisa a atividade elétrica do coração."
+        },
+        {
+            "id": 2,
+            "name": "Ecocardiograma",
+            "description": "Exame ultrassonográfico onde pode-se analisar estrutura e funcionamento do coração."
+        },
+        {
+            "id": 3,
+            "name": "Doppler de Carótidas",
+            "description": "Exame ultrassonográfico onde pode-se analisar estrutura das artérias carótidas e vertebrais assim como presença de ateromatose."
+        },
+        {
+            "id": 4,
+            "name": "Mapa 24h",
+            "description": "Monitorização da pressão arterial, com medidas de 20 em 20 minutos durante a vigília e de 30 em 30 minutos durante o sono, por um período de 24h."
+        },
+        {
+            "id": 5,
+            "name": "Holter de 24h",
+            "description": "Monitorização da atividade elétrica do coração por um período de 24h."
+        },
+        {
+            "id": 6,
+            "name": "Teste Ergométrico",
+            "description": "Teste de esforço físico em esteira ergométrica com objetivo de avaliar sinais de isquemia miocárdica e aptidão cardiorrespiratória."
+        }
+    ]
+}
