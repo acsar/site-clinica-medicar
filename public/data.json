@@ -147,12 +147,12 @@
         },
         {
             "id": 2,
-            "name": "Ecocardiograma",
+            "name": "EcoDopplercardiograma",
             "description": "Exame ultrassonográfico onde pode-se analisar estrutura e funcionamento do coração."
         },
         {
             "id": 3,
-            "name": "Doppler de Carótidas",
+            "name": "Ultrassom Doppler de carótidas e vertebrais",
             "description": "Exame ultrassonográfico onde pode-se analisar estrutura das artérias carótidas e vertebrais assim como presença de ateromatose."
         },
         {
